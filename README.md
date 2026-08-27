@@ -96,3 +96,7 @@ Import the GitHub repository into Vercel, set `DATABASE_URL` and `SESSION_SECRET
 ## Current limitations
 
 This first deployable product slice does not yet include credential authentication, onboarding, CSV ingestion, scheduled weather ingestion, trained model artifacts, or full CRUD screens. Those require a provisioned PostgreSQL database and authentication provider. The repository deliberately documents that boundary instead of presenting non-functional controls as complete.
+
+
+problems 
+some buttons are not working properly will work on them in future
