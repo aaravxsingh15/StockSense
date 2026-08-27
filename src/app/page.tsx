@@ -1,3 +1,3 @@
 import { dashboardData } from "@/lib/intelligence";
-import Dashboard from "@/components/dashboard";
-export default function Home(){ return <Dashboard initialData={dashboardData()} />; }
+import InteractiveDashboard from "@/components/dashboard-interactive";
+export default function Home(){ return <InteractiveDashboard initialData={dashboardData()} />; }
