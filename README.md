@@ -4,6 +4,57 @@
 
 StockSense is a multi-tenant demand-intelligence and inventory-optimization SaaS for retail and quick-commerce operators. The current product slice includes a polished operations command center, deterministic persisted-data-ready intelligence engine, demand forecasts, inventory risk, reorder recommendations, live alerts, store health, REST health/summary/refresh endpoints, and a normalized PostgreSQL schema.
 
+
+## 🚀 The Problem I Solved
+
+Quick-commerce companies such as Blinkit operate through a network of hyperlocal dark stores, where inventory has to be available at the right location before an order is placed.
+
+This creates a difficult operational problem:
+
+- Demand varies significantly from store to store
+- High-demand products can go out of stock during peak periods
+- Overstock ties up working capital and can increase wastage
+- Traditional aggregate forecasting can miss hyperlocal demand patterns
+- Weather and other external conditions can influence demand
+- Inventory decisions need to be continuously updated rather than relying only on static reports
+
+### My Solution
+
+I built **StockSense** as a demand-intelligence and inventory-optimization SaaS platform designed around this problem.
+
+StockSense combines:
+
+**Historical demand + Store-level inventory + Live weather signals + Forecasting + Risk analysis**
+
+to produce actionable inventory decisions.
+
+Instead of simply showing:
+
+> "Demand is expected to increase."
+
+StockSense aims to answer:
+
+> **"Where is demand likely to increase, which products are at risk, and how much inventory should be replenished?"**
+
+The platform provides:
+
+- 📈 Store-level demand forecasting
+- 📦 Inventory health monitoring
+- ⚠️ Stock-out and overstock risk detection
+- 🔄 Reorder recommendations
+- 🌦️ Live weather intelligence through Open-Meteo
+- 🚨 Actionable inventory alerts
+- 🏪 Store-level intelligence
+- 📊 Demand and inventory analytics
+- 🔐 Multi-tenant SaaS architecture
+
+### Why Blinkit?
+
+Blinkit is a representative example of the type of quick-commerce operation this problem applies to.
+
+The objective of StockSense is **not to claim access to Blinkit's proprietary systems or internal data**. Instead, I identified a genuine operational challenge in the quick-commerce model and built a software solution that demonstrates how technology, external signals, and predictive analytics can be used to address it.
+
+> **Problem identified from the quick-commerce model → Solution designed and engineered independently.**
 ## Architecture
 
 - Next.js App Router + React + TypeScript
